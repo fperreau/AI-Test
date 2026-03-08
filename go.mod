@@ -1,4 +1,4 @@
-module github.com/fperreau/dockerfile-to-distrobuilder
+module github.com/fperreau/AI-Test
 
 go 1.21
 
