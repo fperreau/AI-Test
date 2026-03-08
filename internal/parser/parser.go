@@ -1,8 +1,6 @@
-package main
+package parser
 
 import (
-	"bytes"
-
 	"github.com/moby/buildkit/frontend/dockerfile/parser"
 )
 
@@ -17,7 +15,7 @@ type Instruction struct {
 }
 
 func ParseDockerfile(content string) (*Dockerfile, error) {
-	result, err := parser.Parse(bytes.NewReader([]byte(content)))
+	result, err := parser.Parse([]byte(content))
 	if err != nil {
 		return nil, err
 	}
