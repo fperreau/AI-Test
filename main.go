@@ -50,3 +50,4 @@ func main() {
 	// Write the final YAML to stdout
 	fmt.Println(finalYAML)
 }
+
