@@ -5,15 +5,15 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/yourusername/dockerfile-to-distrobuilder/internal/optimizer"
-	"github.com/yourusername/dockerfile-to-distrobuilder/internal/parser"
-	"github.com/yourusername/dockerfile-to-distrobuilder/internal/translator"
+	"github.com/fperreau/AI-Test/internal/optimizer"
+	"github.com/fperreau/AI-Test/internal/parser"
+	"github.com/fperreau/AI-Test/internal/translator"
 )
 
 func main() {
 	// Check if a Dockerfile path is provided
 	if len(os.Args) < 2 {
-		fmt.Println("Usage: dockerfile-to-distrobuilder <dockerfile>")
+		fmt.Println("Usage: AI-Test <dockerfile>")
 		os.Exit(1)
 	}
 

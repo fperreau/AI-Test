@@ -153,9 +153,6 @@ targets:
 	assert.Equal(t, expectedYAML, string(output))
 }
 
-	"github.com/stretchr/testify/assert"
-)
-
 func TestNginxConversion(t *testing.T) {
 	// Create a temporary directory for the test
 	tempDir, err := ioutil.TempDir("", "nginx-test")

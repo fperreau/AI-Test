@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/yourusername/dockerfile-to-distrobuilder/internal/translator"
+	"github.com/fperreau/AI-Test/internal/translator"
 )
 
 func OptimizeYAML(yamlIntermediate *translator.YAMLIntermediate) (string, error) {

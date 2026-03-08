@@ -13,19 +13,19 @@ This tool converts Dockerfiles to YAML configurations compatible with [distrobui
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/dockerfile-to-distrobuilder.git
-   cd dockerfile-to-distrobuilder
+   git clone https://github.com/fperreau/AI-Test.git
+   cd AI-Test
    ```
 
 2. Build the application:
    ```bash
-   go build -o dockerfile-to-distrobuilder
+   go build -o AI-Test
    ```
 
 ## Usage
 
 ```bash
-./dockerfile-to-distrobuilder nginx.dkb > nginx.yaml
+./AI-Test nginx.dkb > nginx.yaml
 ```
 
 ## Example

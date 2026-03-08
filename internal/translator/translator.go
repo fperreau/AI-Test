@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/yourusername/dockerfile-to-distrobuilder/internal/parser"
+	"github.com/fperreau/AI-Test/internal/parser"
 )
 
 type YAMLIntermediate struct {
